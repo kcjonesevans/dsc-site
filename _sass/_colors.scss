@@ -1,0 +1,43 @@
+//
+// Color system
+//
+$clr-white: #ffffff;
+$clr-gray-98: #f3f3f3;
+$clr-gray-95: #ededed;
+$clr-gray-90: #e3e3e3;
+$clr-gray-85: #d9d9d9;
+$clr-gray-80: #cccccc;
+$clr-gray-75: #c0c0c0;
+$clr-gray-70: #b0b0b0;
+$clr-gray-60: #999999;
+$clr-gray-50: #808080;
+$clr-gray-45: #727272;
+$clr-gray-40: #696969;
+$clr-gray-30: #4d4d4d;
+$clr-gray-20: #363636;
+$clr-gray-15: #222222;
+$clr-gray-10: #171717;
+$clr-black: #000000;
+
+$clr-blue: #007bff !default;
+$clr-indigo: #6610f2 !default;
+$clr-purple: #6f42c1 !default;
+$clr-pink: #e83e8c !default;
+$clr-red: #dc3545 !default;
+$clr-orange: #fd7e14 !default;
+$clr-yellow: #ffc107 !default;
+$clr-green: #28a745 !default;
+$clr-teal: #20c997 !default;
+$clr-cyan: #17a2b8 !default;
+
+$clr-status-good: $clr-green;
+$clr-status-error: $clr-red;
+$clr-status-warn: $clr-orange;
+$clr-status-unknown: $clr-yellow;
+
+$color-primary: #2ba745 !default;
+$color-primary-darker: darken($color-primary, 10%) !default;
+$color-primary-darkest: darken($color-primary, 20%) !default;
+$color-secondary: #414141;
+$color-secondary-darker: darken($color-secondary, 10%);
+$color-secondary-darkest: darken($color-secondary, 20%);
