@@ -35,9 +35,9 @@ $clr-status-error: $clr-red;
 $clr-status-warn: $clr-orange;
 $clr-status-unknown: $clr-yellow;
 
-$color-primary: #2ba745 !default;
-$color-primary-darker: darken($color-primary, 10%) !default;
-$color-primary-darkest: darken($color-primary, 20%) !default;
-$color-secondary: #414141;
-$color-secondary-darker: darken($color-secondary, 10%);
-$color-secondary-darkest: darken($color-secondary, 20%);
+$clr-primary: #2ba745 !default;
+$clr-primary-darker: darken($clr-primary, 10%) !default;
+$clr-primary-darkest: darken($clr-primary, 20%) !default;
+$clr-secondary: #414141;
+$clr-secondary-darker: darken($clr-secondary, 10%);
+$clr-secondary-darkest: darken($clr-secondary, 20%);

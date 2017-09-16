@@ -1,0 +1,62 @@
+@import 'colors'; // Color Variables
+
+$fontFamily:  "Roboto", "Trebuchet MS", Arial, Helvetica, sans-serif;
+$fontSize: 1em;
+$borderRadius: 3px;
+$disabledOpacity: 0.35;
+
+//set overlay-opacity for items that cover the ma
+$overlay-opacity : 0.5;
+
+//Header
+$headerBorderWidth: 1px;
+$headerBorderColor: $clr-gray-98;
+$headerBgColor: $clr-gray-98;
+$headerTextColor: $clr-gray-98;
+$headerFontWeight: normal;
+$headerIconTextColor: $clr-gray-98;
+
+//Content
+$contentBorderWidth: 1px;
+$contentBorderColor: $clr-gray-98;
+$contentBgColor: $clr-gray-98;
+$contentTextColor: $clr-gray-98;
+
+//Default State
+$stateDefaultBorderWidth: 1px;
+$stateDefaultBorderColor: $clr-gray-98;
+$stateDefaultBgColor: $clr-gray-20;
+$stateDefaultTextColor: $clr-gray-98;
+
+//Active State
+$stateActiveBorderColor: $clr-primary-darker;
+$stateActiveBgColor: $clr-primary;
+$stateActiveTextColor: $clr-black;
+
+//Highlight State
+$stateHighlightBorderColor: $clr-secondary-darker;
+$stateHighlightBgColor: $clr-secondary;
+$stateHighlightTextColor: $clr-black;
+
+//Focus State
+$stateFocusBorderColor: $clr-secondary;
+$stateFocusBgColor: $clr-secondary-darker;
+$stateFocusTextColor: $clr-primary;
+
+//Error State
+$stateErrorBorderColor: $clr-status-error;
+$stateErrorBgColor: $clr-status-error;
+$stateErrorTextColor: #clr-white;
+//Warn State
+$stateWarnBorderColor: $clr-status-warn;
+$stateWarnBgColor: $clr-status-warn;
+$stateWarnTextColor: $clr-white;
+//Success State
+$stateSuccessBorderColor: $clr-status-good;
+$stateSuccessBgColor: $clr-status-good;
+$stateSucessTextColor: $clr-white;
+
+//Hover State
+$stateHoverBorderColor: $clr-secondary-darker;
+$stateHoverBgColor: $clr-gray-98;
+$stateHoverTextColor: $clr-primary;
