@@ -1,28 +1,44 @@
 <footer class="site-footer">
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
-        <span class="text-muted">&copy; {{ site.title | escape }}</span>
+      <div class="col-md-6 map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3068.473977577031!2d-84.07106268407438!3d39.72900277945097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88409b729acf71b3%3A0x21bc68da2f8edbe7!2sDayton+Strength+and+Conditioning!5e0!3m2!1sen!2sus!4v1505599641470"
+        width="450"
+        height="300"
+        frameborder="0"
+        style="border:0"
+        allowfullscreen>
+      </iframe>
       </div>
-      {% if site.author %}
-      <div class="col-md-4">
-        <span class="text-muted"><a href="mailto:{{ site.email }}">{{ site.author | escape }}</a></span>
-      </div>
-      {% endif %}
-      <div class="col-md-4">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
+      <div class="col-md-6">
+       <div class="row">
+         <div class="col">
+           <img class="navbar-brand" href="{{site.baseurl}}" src="{{site.baseurl}}/img/dsc-logo.png"></a>
+           <p>
+           <i class="fa fa-instagram"></i>
+           <i class="fa fa-facebook"></i>
+         </p>
 
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
+           <p>
+             Dayton Strength & Conditioning
+
+             1321 RESEARCH PARK DR, BEAVERCREEK OH 45432
+
+             937-715-LIFT
+
+             admin@daytonstrength.com
+           </p>
+         </div>
+         <div class="col">
+           <a href="#">Home</a>
+           <a href="#">About</a>
+           <a href="#">Programs</a>
+           <a href="#">Schedule</a>
+           <a href="#">Get Started</a>
+           <a href="#">Blog</a>
+           <a href="#">Contact Us</a>
+         </div>
+       </div>
       </div>
     </div>
   </div>
