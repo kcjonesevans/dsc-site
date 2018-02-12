@@ -4,19 +4,17 @@ title: Schedule
 permalink: /schedule/
 ---
 
-Colons can be used to align columns.
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-There must be at least 3 dashes separating each header cell.
-The outer pipes (|) are optional, and you don't need to make the
-raw Markdown line up prettily. You can also use inline Markdown.
-
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
+|       | Sunday    | Monday       | Tuesday     | Wednesday   | Thursday    | Friday    | Saturday    |
+|--------|-------------|----------------|---------------|---------------|---------------|-------------|----------------|
+|6:00   | Closed    | S&C Class    |S&C Class    |S&C Class    | S&C Class   | S&C Class | Closed       |
+|9:00   | Open Gym  | Open Gym     | Open Gym    | Open Gym    | Open Gym    | Open Gym  | Open Gym     |
+|11:15  |           | S&C Class    |             | S&C Class   |             | S&C Class |              |
+|12:00  |           |              |             |             |             |           | Barbell Club |
+|13:00  | Open Gym  | Open Gym     | Open Gym    | Open Gym    | Open Gym    | Open Gym  | Open Gym     |
+|15:00  | Kid Fit   |              |             |             |             |           | Closed       |
+|16:00  | Closed    | Teen S&C     |             | Teen S&C    |             | Teen S&C  |              |
+|16:15  |           |              | Teachers    |             | Teachers    |           |              |
+|17:30  |           | S&C Class    |S&C Class    |S&C Class    | S&C Class   |           |              |
+|18:00  |           |              |Runners      |             | Runners     | GRIT      |              |
+|18:30  |           | Barbell Club |Barbell Club |Barbell Club |Barbell Club |           |              |
+|22:00  |           | Closed       |Closed       |Closed       |Closed       | Closed    |              |
