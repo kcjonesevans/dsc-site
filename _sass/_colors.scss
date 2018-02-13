@@ -41,3 +41,5 @@ $clr-primary-darkest: darken($clr-primary, 20%) !default;
 $clr-secondary: #414141;
 $clr-secondary-darker: darken($clr-secondary, 10%);
 $clr-secondary-darkest: darken($clr-secondary, 20%);
+$clr-secondary-lighter: lightne($clr-secondary, 10%);
+$clr-secondary-lightest: lighten($clr-secondary, 20%);

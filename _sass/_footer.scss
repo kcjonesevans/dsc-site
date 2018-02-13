@@ -15,15 +15,36 @@
     margin-bottom: $copyright-height;
     width: 100%;
     .container {
+      .fa {
+        text-align: center;
+        padding: 10px;
+      }
+      .social-media-list{
+        width: 75%;
+      }
+      .address {
+        p {
+          margin-bottom: 0;
+        }
+      }
+      .site-index {
+        margin: auto;
+        ul {
+          list-style-type: none;
+        }
+      }
       
       a{
         color: $clr-primary;
+        &:hover {
+          color: $clr-white;
+        }
       }
     }
 }
 
 .copyright{
-  color: $clr-secondary;
+  color: $clr-secondary-lighter;
   background-color:$clr-secondary-darker;
   bottom: 0;
   height: $copyright-height;
