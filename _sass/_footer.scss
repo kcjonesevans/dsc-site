@@ -4,3 +4,30 @@
 .footer-brand{
     height: $navbar-height;
   }
+.footer {
+    background-color: $clr-secondary;
+    color: $clr-white;
+    //bottom: 0;
+    height: $footer-height;
+    
+    //position: absolute;
+    padding: 10px;
+    margin-bottom: $copyright-height;
+    width: 100%;
+    .container {
+      
+      a{
+        color: $clr-primary;
+      }
+    }
+}
+
+.copyright{
+  color: $clr-secondary;
+  background-color:$clr-secondary-darker;
+  bottom: 0;
+  height: $copyright-height;
+  padding: 0;
+  position: absolute;
+  width:100%
+}

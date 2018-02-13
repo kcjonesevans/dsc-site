@@ -1,5 +1,14 @@
 @import "defaults";
 
+
+.site-header {
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: $z-index-navbar;
+}
+
 .navbar{
   padding: 0;
 }

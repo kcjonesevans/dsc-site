@@ -1,53 +1,32 @@
 $z-index-navbar: 10;
 $footer-height: 350px;
 $navbar-height: 100px;
+$body-bottom-margin: 20px;
+$copyright-height: 50px;
 
+html {
+  height: 100%;
+}
 body {
-  margin-bottom: $footer-height;
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Avoid the IE 10-11 `min-height` bug. */
 }
 
-.site-header {
-  left: 0;
-  position: fixed;
-  right: 0;
-  top: 0;
-  z-index: $z-index-navbar;
 
+.content{
+  flex: 1 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+  margin: $navbar-height+50px 20px $footer-height;
+  padding: 20px;
 
 }
-
-body > .site-header + .container {
-  padding: $navbar-height+50px 15px $footer-height;
+.footer {
+  flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
 }
 
 .container {
   max-width: 720px;
 }
-.content{
-  //min-height: calc(100vh - $footer-height);
-}
 
-.site-footer {
-  background-color: $clr-secondary;
-  color: $clr-white;
-  a{
-    color: $clr-primary;
-  }
-  bottom: 0;
-  height: $footer-height;
-  //line-height: 60px;
-  margin-top:-50px;
-  position: absolute;
-  padding: 10px;
-  width: 100%;
 
-}
-.copyright{
-  color: $clr-secondary;
-  background-color:$clr-secondary-darker;
-  bottom: 0;
-  height: 50px;
-  padding: 0;
-  position: absolute;
-  width:100%
-}
+

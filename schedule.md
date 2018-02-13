@@ -5,7 +5,7 @@ permalink: /schedule/
 ---
 
 |       | Sunday    | Monday       | Tuesday     | Wednesday   | Thursday    | Friday    | Saturday    |
-|--------|-------------|----------------|---------------|---------------|---------------|-------------|----------------|
+|-------|-----------|--------------|-------------|-------------|-------------|-----------|--------------|
 |6:00   | Closed    | S&C Class    |S&C Class    |S&C Class    | S&C Class   | S&C Class | Closed       |
 |9:00   | Open Gym  | Open Gym     | Open Gym    | Open Gym    | Open Gym    | Open Gym  | Open Gym     |
 |11:15  |           | S&C Class    |             | S&C Class   |             | S&C Class |              |
